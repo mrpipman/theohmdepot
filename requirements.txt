@@ -1,7 +1,6 @@
-
 streamlit
 pandas
 plotly
 scikit-learn
-schedule
 requests
+schedule

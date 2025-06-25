@@ -1,1 +1,1 @@
-def highlight_roi(row): return ["" for _ in row]
+def highlight_roi(row): return ['' for _ in row]
