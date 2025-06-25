@@ -10,10 +10,10 @@ from sklearn.cluster import KMeans
 
 # --- CONFIGURAZIONE ---
 DB_FILE = "arbitrage_trades.db"
-st.set_page_config(page_title="The Ω Depot Dashboard", layout="wide")
+st.set_page_config(page_title="The Ω Depot", layout="wide")
 
 # --- LOGO e HEADER ---
-st.image("/mnt/data/Cattura.PNG", width=60)
+st.image("logo.png", width=60)
 st.title("The Ω Depot")
 st.caption("Dashboard di arbitraggio intelligente su LMP")
 
