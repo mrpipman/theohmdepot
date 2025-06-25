@@ -1,4 +1,3 @@
-
 # ⚡ The Ω Depot
 
 > Dashboard professionale per analisi e automazione del trading su **LMP arbitrage**
@@ -68,3 +67,20 @@ Per attivare:
 Creato con ❤️ per chi fa arbitraggio LMP come un vero Ωperatore.
 
 ---
+
+---
+
+## 🌍 Live App
+
+👉 [Apri su Streamlit Cloud](https://theohmdepot.streamlit.app) *(link demo modificabile)*
+
+---
+
+## 🛠 Cron Job Telegram
+
+Esegui lo script ogni giorno alle 6:00 UTC:
+
+```bash
+0 6 * * * /usr/bin/python3 /percorso/send_report_telegram.py
+```
+
